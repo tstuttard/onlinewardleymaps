@@ -1,0 +1,5 @@
+{
+  "id": "7453396d-d020-4192-b160-c8c242fe36c4",
+  "text": "title Personal Finance - Employment\n\nanchor Person [0.95, 0.95]\n\ncomponent Salary [0.90, 0.80]\ncomponent Income Tax (PAYE) [0.92, 0.70]\ncomponent Workplace Pension [0.75, 0.60]\ncomponent Payslips [0.40, 0.50]\n\ncomponent Payslip Understanding [0.40, 0.10]\ncomponent Tax Understanding [0.30, 0.10]\ncomponent Pension Understanding [0.20, 0.10]\n\nPerson->Salary\nSalary->Income Tax (PAYE)\nSalary->Workplace Pension\nSalary->Payslips\n\nPayslips->Payslip Understanding\nIncome Tax (PAYE)->Tax Understanding\nWorkplace Pension->Pension Understanding\n\nstyle wardley",
+  "mapIterations": "[]"
+}
