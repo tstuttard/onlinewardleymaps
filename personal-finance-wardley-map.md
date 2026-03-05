@@ -20,6 +20,7 @@
 ## Current Status
 - Map file: `7453396d-d020-4192-b160-c8c242fe36c4.owm`
 - Location: `/home/tstuttard/Projects/onlinewardleymaps/data/`
+- Skill: `/home/tstuttard/Projects/onlinewardleymaps/.opencode/skills/wardley-map/SKILL.md`
 
 ## Current Scope
 **Focus: Employment** (salaried employee)
@@ -69,5 +70,9 @@
 1. Define the anchor (✓ done)
 2. List all components (✓ done - employment scope)
 3. Position components on evolution axis (✓ done)
-4. Draw on map editor
-5. Identify gaps/opportunities
+4. Draw on map editor (✓ done)
+5. Identify how knowledge gaps are currently filled:
+   - How do people learn to read payslips?
+   - How do people learn how tax/NI works?
+   - How do people learn about pension contributions?
+6. Identify gaps/opportunities
