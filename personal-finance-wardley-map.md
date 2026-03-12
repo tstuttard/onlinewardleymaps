@@ -32,19 +32,25 @@
 |-----------|-------------|--------------|-----------|-------|
 | Salary | BACS payment to bank | [0.90, 0.80] | Commodity | Standard payment |
 
-### Employment
+### Understanding
 | Component | Description | Coords [y,x] | Evolution | Notes |
 |-----------|-------------|--------------|-----------|-------|
-| Payslips | Digital copies in Google Drive | [0.40, 0.50] | Custom→Product | Manual storage |
-| Payslip Understanding | How to read/verify payslip | [0.40, 0.10] | Genesis | Knowledge gap |
-| Tax Understanding | How tax/NI calculated | [0.30, 0.10] | Genesis | Knowledge gap |
+| Take Home Pay Understanding | Understanding payslip, tax, pension | [0.45, 0.08] | Genesis | Combined knowledge gap |
+| Manual Calculations | Self-calculating take home pay | [0.70, 0.08] | Genesis | Using calculators/spreadsheets |
 
-### Deductions
+### Potential Solution (Opportunity)
 | Component | Description | Coords [y,x] | Evolution | Notes |
 |-----------|-------------|--------------|-----------|-------|
-| Income Tax (PAYE) | Automatic tax deduction | [0.92, 0.70] | Commodity | Government standard |
-| Workplace Pension | Employer pension scheme | [0.75, 0.60] | Product→Commodity | Auto-enrolled |
-| Pension Understanding | Employer/employee contributions | [0.20, 0.10] | Genesis | Knowledge gap |
+| Payslip Validator App | Upload payslip, input details, verify correct | [0.80, 0.25] | Genesis | Idea - extract data, validate pay |
+
+### Research Resources
+| Component | Description | Coords [y,x] | Evolution | Notes |
+|-----------|-------------|--------------|-----------|-------|
+| Government Pension Websites | pensionwise.gov.uk, gov.uk/pensions | [0.86, 0.71] | Product | Official guidance |
+| Pension Provider Website | Scheme portal (eg Aviva, Legal & General) | [0.89, 0.61] | Product→Commodity | Where your pot is |
+| Employer HR/Payroll | Contact HR for scheme details | [0.80, 0.37] | Custom→Product | Varies by employer |
+| Online Search/Research | Google, forums, Reddit, YouTube | [0.92, 0.19] | Genesis | Fragmented, variable quality |
+| Financial Advisor/Accountant | Professional advice (often costly) | [0.85, 0.23] | Custom | Expensive, not accessible to all |
 
 ## How You Engage
 - **Payslips:** Store in Google Drive, passive review (check consistency)
@@ -54,10 +60,10 @@
 ```
 [Person - Anchor]
        |
-       |-- Payslips --> Payslip Understanding
-       |-- Pension --> Pension Understanding
-       |-- Tax (PAYE) --> Tax Understanding
        |-- Salary
+       |-- Payslips --> Take Home Pay Understanding
+       |-- Income Tax (PAYE) --> Take Home Pay Understanding
+       |-- Workplace Pension --> Take Home Pay Understanding
 ```
 
 ## Evolution Assessment
